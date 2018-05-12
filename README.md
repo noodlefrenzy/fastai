@@ -25,6 +25,13 @@ This downloads all of the dependencies and then all you have to do is:
 conda activate fastai
 ```
 
+If you see errors (particularly on Windows, related to `pytorch` and `mkl`), you should first try updating `conda` itself before opening an issue here:
+
+```sh
+conda update conda
+conda update anaconda
+```
+
 To update everything at any time, cd to your repo and:
 
 ```sh
